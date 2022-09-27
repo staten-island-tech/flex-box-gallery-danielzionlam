@@ -6,7 +6,13 @@ img {
 .about {
     height: 3rem;
     background-color: royalblue;
+}
+.about-row{
     @include flex-row-center;
+    justify-content: space-between;
+    height: 100%;
+    width: 80vw;
+    margin:0 auto;
 }
 .about-col{
     background-color: indigo;
