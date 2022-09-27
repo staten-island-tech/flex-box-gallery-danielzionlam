@@ -9,41 +9,37 @@ body,
 .header {
     background-color: crimson;
     color:ivory;
-    height: 95vh;
+    height: 22vh;
     justify-content: center;
 }
 .header-title {
-    font-size: 8rem;
+    font-size: 10rem;
     text-align: center;
 }
 img{
-    height: 3rem;
-    width: 3rem;
+    height: 10vw;
+    width: 10vw;
 }
 .about{
     height: 100vh;
     background-color: royalblue;
 }
-
-/*.parent{
-    font-size: 30px;
+.about-col{
     display: flex;
-    justify-content:center;
-    align-items:center;
+    flex-direction: column;
+    align-items: center;
+    background-color: indigo;
+    height: 90%;
+    width: 25%;
+    justify-content: space-evenly;
 }
-.child {
-    width: 28%;
-    border: 1px solid red
+.about-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: red;
+    justify-content: space-between;
+    height: 100%;
+    width: 80vw;
+    margin:0 auto;
 }
-.child-1{
-    border:3px solid green;
-    height:300px;
-}
-.child-2{
-    border:3px solid blue;
-    height:300px;
-}
-.child-3{
-    border:3px solid red;
-    height:300px;
-} */
