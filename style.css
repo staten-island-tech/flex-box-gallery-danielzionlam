@@ -22,11 +22,11 @@ body,
 }
 .child-2{
     border:3px solid blue;
-    height:500px;
+    height:300px;
     flex-grow: 2;
 }
 .child-3{
     border:3px solid red;
-    height:600px;
+    height:300px;
     flex-grow: 2;
 }
