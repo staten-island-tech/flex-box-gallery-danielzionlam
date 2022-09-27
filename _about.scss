@@ -1,0 +1,15 @@
+@import "_variables";
+@import "_mixins";
+img {
+    height: 3rem;
+}
+.about {
+    height: 3rem;
+    background-color: royalblue;
+    @include flex-row-center;
+}
+.about-col{
+    background-color: indigo;
+    height: 90%;
+    width: 25%;
+}

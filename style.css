@@ -6,11 +6,30 @@ body,
     box-sizing: border-box;
     font-size: 62.5%; /* Normally 100% is 16 pixels. We want the size to be 10px so we do 62.5& */
 }
-.parent{
+.header {
+    background-color: crimson;
+    color:ivory;
+    height: 95vh;
+    justify-content: center;
+}
+.header-title {
+    font-size: 8rem;
+    text-align: center;
+}
+img{
+    height: 3rem;
+    width: 3rem;
+}
+.about{
+    height: 100vh;
+    background-color: royalblue;
+}
+
+/*.parent{
     font-size: 30px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content:center;
+    align-items:center;
 }
 .child {
     width: 28%;
@@ -23,10 +42,8 @@ body,
 .child-2{
     border:3px solid blue;
     height:300px;
-    flex-grow: 2;
 }
 .child-3{
     border:3px solid red;
     height:300px;
-    flex-grow: 2;
-}
+} */
