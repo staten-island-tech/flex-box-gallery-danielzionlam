@@ -13,20 +13,22 @@ body,
     height: 22vh;
     justify-content: center;
 }
-.header-title {
-    font-size: 10rem;
-    text-align: center;
+#id {
     font-family: 'Passion One', cursive;
+}
+.header-title {
+    font-size: 20rem;
+    text-align: center;
 }
 img{
     height: 15vw;
     width: 15vw;
 }
-.about{
+.parent{
     height: 150vh;
     background-color:rgb(220, 215, 215);
 }
-.about-col{
+.col{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -34,7 +36,7 @@ img{
     width: 55%;
     justify-content: space-evenly;
 }
-.about-row{
+.row{
     display: flex;
     flex-direction: row;
     align-items: center;
