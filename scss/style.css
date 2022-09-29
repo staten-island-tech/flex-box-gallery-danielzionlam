@@ -4,40 +4,41 @@ body,
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Antonio', sans-serif;
     font-size: 62.5%; /* Normally 100% is 16 pixels. We want the size to be 10px so we do 62.5& */
 }
 .header {
-    background-color: crimson;
-    color:ivory;
+    background-color: rgb(4, 4, 90);
+    color:rgb(255, 208, 0);
     height: 22vh;
     justify-content: center;
 }
 .header-title {
     font-size: 10rem;
     text-align: center;
+    font-family: 'Passion One', cursive;
 }
 img{
-    height: 13vw;
-    width: 13vw;
+    height: 15vw;
+    width: 15vw;
 }
 .about{
-    height: 100vh;
-    background-color: royalblue;
+    height: 150vh;
+    background-color:rgb(220, 215, 215);
 }
 .about-col{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: indigo;
     height: 90%;
-    width: 25%;
+    width: 55%;
     justify-content: space-evenly;
 }
 .about-row{
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color: red;
+    background-color: rgb(77, 77, 77);
     justify-content: space-between;
     height: 100%;
     width: 80vw;
