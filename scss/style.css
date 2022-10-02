@@ -7,22 +7,42 @@ body,
     font-family: 'Antonio', sans-serif;
     font-size: 62.5%; /* Normally 100% is 16 pixels. We want the size to be 10px so we do 62.5& */
 }
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: lightgray;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 3rem;
+    border-radius: 8px;
+    box-shadow: 1rem 1rem 0.5rem grey;
+}
+.box h3{
+    font-size: 3rem;
+}
+.box p {
+    font-size: 1.25rem;
+}
 .header {
     background-color: rgb(4, 4, 90);
     color:rgb(255, 208, 0);
-    height: 22vh;
+    height: 30vh;
     justify-content: center;
 }
 #id {
     font-family: 'Passion One', cursive;
 }
 .header-title {
-    font-size: 20rem;
+    font-size: 16rem;
     text-align: center;
 }
 img{
-    height: 15vw;
-    width: 15vw;
+    height: 12vw;
+    width: 12vw;
 }
 .parent{
     height: 150vh;
