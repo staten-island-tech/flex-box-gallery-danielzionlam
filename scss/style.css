@@ -66,22 +66,12 @@ img{
     width: 80vw;
     margin:0 auto;
 }
-.form:before {
-    content:"\265A";
-    font-size: 5rem;
+.box:hover{
+    transform: scale(1.1);
+    outline: 1rem solid rgb(255, 208, 0);
 }
-.button {
+.box{
+    -webkit-transition: all 0.3s;
     transition: all 0.3s;
-    font-size: 5rem;
-    color:orangered;
-}
-.button:hover{
-    transform: scale(1.25);
-}
-.butt{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    text-align: center;
-    background-color: rgb(220, 215, 215);
+    outline-offset: 1rem;
 }
