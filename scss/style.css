@@ -66,12 +66,24 @@ img{
     width: 80vw;
     margin:0 auto;
 }
-.box:hover{
-    transform: scale(1.1);
-    outline: 1rem solid rgb(255, 208, 0);
-}
 .box{
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
     outline-offset: 1rem;
+}
+.boxA:hover{
+    transform: scale(1.1);
+    outline: 1rem solid rgb(68, 255, 0);
+}
+.boxB:hover{
+    transform: scale(1.1);
+    outline: 1rem solid rgb(255, 0, 0);
+}
+.boxC:hover{
+    transform: scale(1.1);
+    outline: 1rem solid rgb(0, 0, 255);
+}
+.boxD:hover{
+    transform: scale(1.1);
+    outline: 1rem solid rgb(243, 11, 255);
 }
