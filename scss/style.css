@@ -69,21 +69,58 @@ img{
 .box{
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
-    outline-offset: 1rem;
+    outline-offset: 0.5rem;
 }
-.boxA:hover{
+.box:hover{
     transform: scale(1.1);
-    outline: 1rem solid rgb(68, 255, 0);
+    outline: 0.5rem solid rgb(255, 255, 255);
 }
 .boxB:hover{
     transform: scale(1.1);
-    outline: 1rem solid rgb(255, 0, 0);
+    outline: 0.5rem solid rgb(173, 173, 173);
 }
 .boxC:hover{
     transform: scale(1.1);
-    outline: 1rem solid rgb(0, 0, 255);
+    outline: 0.5rem solid rgb(43, 43, 44);
 }
 .boxD:hover{
     transform: scale(1.1);
-    outline: 1rem solid rgb(243, 11, 255);
+    outline: 0.5rem solid rgb(0, 0, 0);
 }
+.hoverflash figure:hover img {
+	opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
+
+.hoversad figure img {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hoversad figure:hover img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+
+
+ 
