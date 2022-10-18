@@ -22,10 +22,10 @@ body,
     box-shadow: 1rem 1rem 0.5rem grey;
 }
 .box h3{
-    font-size: 3rem;
+    font-size: 2.8vw;
 }
 .box p {
-    font-size: 1.5rem;
+    font-size: 1.5vw;
 }
 
   .header:hover {
@@ -48,8 +48,8 @@ body,
     text-align: center;
 }
 img{
-    height: 12vw;
-    width: 12vw;
+    height: 15vw;
+    width: 15vw;
 }
 .parent{
     height: 220vh;
