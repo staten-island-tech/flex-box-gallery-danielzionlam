@@ -7,8 +7,21 @@ body,
     font-family: 'Antonio', sans-serif;
     font-size: 62.5%; /* Normally 100% is 16 pixels. We want the size to be 10px so we do 62.5& */
 }
-body {
-  @media(min-width: none;)
+@media screen and (max-width:600px) {
+  .parent{
+    flex-direction: column;
+  }
+  .box{
+    width: 100%;
+  }
+}
+@media screen and (max-width:900px) {
+  .parent{
+    flex-direction: row;
+  }
+  .box{
+    width: 45%;
+  }
 }
 .box {
     display: flex;
