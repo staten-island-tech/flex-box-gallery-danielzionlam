@@ -7,22 +7,31 @@ body,
     font-family: 'Antonio', sans-serif;
     font-size: 62.5%; /* Normally 100% is 16 pixels. We want the size to be 10px so we do 62.5& */
 }
-@media screen and (max-width:600px) {
-  .parent{
-    flex-direction: column;
-  }
-  .box{
+@media screen and (max-width:390px) {
+  flex-direction: row;
+  html,
+  body {
     width: 100%;
+    height: 100%;
+    margin: 0px::afterpadding: 0px;
+  }
+
+  .parent {
+    width: 5rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 4.5rem;
+
+  }
+
+  .box,
+  .img {
+    margin-bottom:3rem;
   }
 }
-@media screen and (max-width:900px) {
-  .parent{
-    flex-direction: row;
-  }
-  .box{
-    width: 45%;
-  }
-}
+
+
 .box {
     display: flex;
     align-items: center;
