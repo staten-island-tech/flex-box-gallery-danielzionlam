@@ -7,33 +7,9 @@ body,
     font-family: 'Antonio', sans-serif;
     font-size: 62.5%; /* Normally 100% is 16 pixels. We want the size to be 10px so we do 62.5& */
 }
-@media screen and (max-width:390px) {
-  flex-direction: row;
-  html,
-  body {
-    width: 100%;
-    height: 100%;
-    margin: 0px::afterpadding: 0px;
-  }
-
-  .parent {
-    width: 5rem;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin-left: 4.5rem;
-
-  }
-
-  .box,
-  .img {
-    margin-bottom:3rem;
-  }
-}
-
 
 .box {
-    display: flex;
+  display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -86,7 +62,7 @@ img{
     height: 90%;
     width: 55%;
     justify-content: space-evenly;
-}
+  }
 .row{
     display: flex;
     flex-direction: row;
@@ -96,7 +72,7 @@ img{
     height: 100%;
     width: 80vw;
     margin:0 auto;
-}
+  }
 .box{
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
@@ -105,11 +81,11 @@ img{
 .box:hover{
     transform: scale(1.1);
     outline: 0.5rem solid rgb(255, 255, 255);
-}
-.boxB:hover{
+  }
+  .boxB:hover{
     transform: scale(1.1);
     outline: 0.5rem solid rgb(173, 173, 173);
-}
+  }
 .boxC:hover{
     transform: scale(1.1);
     outline: 0.5rem solid rgb(43, 43, 44);
@@ -133,7 +109,7 @@ img{
 }
 @keyframes flash {
 	0% {
-		opacity: .4;
+    opacity: .4;
 	}
 	100% {
 		opacity: 1;
@@ -265,3 +241,18 @@ img{
     100% {transform: scaleX(1);}
   }
   
+  /* iphone12 */
+  @media only screen and (max-width:390px) { 
+   #id {
+    width: 250px;
+    margin: 0 auto;
+    font-size: 60px;
+   }
+   .header {
+    height: 10vh;
+   }
+  }
+  /*ipad*/
+  @media screen and (max-width:820px){
+    
+  }
