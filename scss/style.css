@@ -250,6 +250,26 @@ img{
    }
    .header {
     height: 10vh;
+    width: 100vw;
+   }
+   .parent {
+    width: 5rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 4.5rem;
+   }
+   .box{
+    height: 250px;
+    width: 250px;
+   }
+   .img{
+    height: 200px;
+    width: 200px;
+   }
+   .box h3,
+   .box p{
+    font-size: 20px;
    }
   }
   /*ipad*/
