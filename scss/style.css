@@ -155,87 +155,103 @@ img{
     90% { transform: translate(1px, 2px) rotate(0deg); }
     100% { transform: translate(1px, -2px) rotate(-1deg); }
   }
-  /* iphone12 */
-  @media only screen and (max-width:390px) { 
-   #id {
+
+/* iphone12 */
+@media only screen and (max-width:390px) and (min-width: 390px){ 
+  .header-title {
     width: 250px;
     margin: 0 auto;
     font-size: 60px;
-   }
-   .header {
+  }
+  .header {
     height: 10vh;
     width: 100vw;
-   }
-   .parent {
+  }
+  .parent {
     width: 5rem;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     margin-left: 4.5rem;
-   }
-   .col{
+  }
+  .col{
     display: flex;
     flex-direction: column;
-   }
-   .row{
+  }
+  .row{
     display: flex;
     flex-direction: column;
-   }
-   .box{
+  }
+  .box{
     height: 220px;
     width: 220px;
-   }
-   .img{
+  }
+  .img{
     height: 180px;
     width: 180px;
-   }
-   .box h3,
-   .box p{
+  }
+  .box h3,
+  .box p{
     font-size: 15px;
-   }
-   .parent{
+  }
+  .parent{
     height: 390vh;
+  }
 }
+
+/*ipad */
+@media screen and (max-width:820px) and (min-width:820px){
+  .header-title {
+    margin: 0 auto;
+    font-size: 150px;
   }
-  /*ipad*/
-  @media screen and (max-width:820px){
-    #id {
-      width: 400px;
-      margin: 0 auto;
-      font-size: 60px;
-     }
-     .header {
-      height: 15vh;
-      width: 100vw;
-     }
-     .parent {
-      width: 5rem;
-      display: flex;
-      flex-direction: column;
-      flex-wrap: wrap;
-      margin-left: 4.5rem;
-     }
-     .col{
-      display: flex;
-      flex-direction: column;
-     }
-     .row{
-      display: flex;
-      flex-direction: column;
-     }
-     .box{
-      height: 220px;
-      width: 220px;
-     }
-     .img{
-      height: 180px;
-      width: 180px;
-     }
-     .box h3,
-     .box p{
-      font-size: 15px;
-     }
-     .parent{
-      height: 390vh;
+  .header {
+    height: 18vh;
+    width: 100vw;
   }
+  .parent {
+    width: 5rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 4.5rem;
   }
+  .col{
+    display: flex;
+    flex-direction: column;
+  }
+  .row{
+    display: flex;
+    flex-direction: column;
+  }
+  .box{
+    height: 320px;
+    width: 320px;
+  }
+  .img{
+    height: 250px;
+    width: 250px;
+  }
+  .box h3,
+  .box p{
+    font-size: 25px;
+  }
+  .parent{
+    height: 390vh;
+  }
+}
+
+/*laptop surface pro 7 */
+@media screen and (max-width:912px) and (min-width:912px){
+  .header-title {
+    margin: 0 auto;
+    font-size: 200px;
+  }
+  .header {
+    height: 20vh;
+    width: 100vw;
+  }
+  .parent{
+    height: 100vh;
+  }
+}  
