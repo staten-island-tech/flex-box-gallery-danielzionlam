@@ -157,7 +157,7 @@ img{
   }
 
 /* iphone12 */
-@media only screen and (max-width:390px) and (min-width: 390px){ 
+@media only screen and (max-width:480px){ 
   .header-title {
     width: 250px;
     margin: 0 auto;
